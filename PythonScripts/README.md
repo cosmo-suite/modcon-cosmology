@@ -23,7 +23,7 @@ Upon successful execution, the script saves two images in the current directory:
 This script calculates and plots the ratio of transfer functions for alternative dark matter models (Warm Dark Matter and Fuzzy Dark Matter) relative to a baseline $\Lambda$CDM model.
 
 ### Usage
-The script requires the $\Lambda$ CDM baseline file and at least one alternative model file to generate the comparison.
+The script requires the $\Lambda$ CDM baseline file and at least one alternative model file to generate the comparison. 111
 ```
 python3 TF_Compare_LCDM_WDM_FDM.py --file-lcdm lcdm.txt --file-wdm1 wdm_085.txt --file-fdm1 fdm_1022.txt
 ```
